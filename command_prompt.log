@@ -1,0 +1,50 @@
+bundle install 
+rails s
+y
+gem install bootstrap
+bundle clean --force
+bundle install 
+rails s
+y
+history
+schtasks /Query /?
+DOSKEY /HISTORY > command_prompt.log
+subl .
+bundle install
+rails g model Resume name:string attachment:string
+rake db:migrate
+bundle install
+rake db:migrate
+rails g controller Resumes index new create directory
+rails g 
+rails g uploader attachment
+subl app/models/resume.rb
+subl app/controllers/resumes_controller.rb
+subl 
+subl app/assets/stylesheets/resumes.css.scss
+subl app/views/layouts/application.html.erb
+rails g rspec 
+gem install rspec
+bundle exec rails g model Resume name:string attachment:string
+bundle exer rake db:migrate
+bundle exec rake db:migrate
+rails g controller Resumes index new create directory
+y
+subl app/models/resume.rb
+subl config/routes.rb
+subl app/controllers/resumes_controller.rb
+subl app/assets/stylesheets/resumes.css.scss
+subl app/views/layouts/application.html.erb
+subl app/views/resumes/index.html.erb
+subl app/views/resumes/new.html.erb
+subl app/uploaders/attachment_uploader.rb
+rake test
+rails s
+y
+subl Gemfile
+gem install "anjlab-bootstrap-rails"
+gem install "bootstrap-rails"
+y
+gem install 'bootstrap-sass'
+gem install "autotest-rails"
+gem install 'carrierwave'
